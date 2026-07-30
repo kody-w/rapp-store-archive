@@ -87,7 +87,7 @@ Detailed instructions and guidance...
 ### Step 1: Fork the Repository
 
 ```bash
-gh repo fork kody-w/RAPP_Store
+gh repo fork kody-w/rapp-store-archive
 ```
 
 ### Step 2: Create a Branch

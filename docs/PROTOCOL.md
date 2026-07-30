@@ -153,13 +153,13 @@ Items are discovered from the manifest's `agents` and `skills` arrays. Each entr
 ```
 {raw_base}/{agent.path}/{agent.filename}
 ```
-Example: `https://raw.githubusercontent.com/kody-w/RAPP_Store/main/agents/pdf_processor_agent/pdf_processor_agent.py`
+Example: `https://raw.githubusercontent.com/kody-w/rapp-store-archive/main/agents/pdf_processor_agent/pdf_processor_agent.py`
 
 **Skills:**
 ```
 {raw_base}/{skill.path}/SKILL.md
 ```
-Example: `https://raw.githubusercontent.com/kody-w/RAPP_Store/main/skills/algorithmic-art/SKILL.md`
+Example: `https://raw.githubusercontent.com/kody-w/rapp-store-archive/main/skills/algorithmic-art/SKILL.md`
 
 **Skill Resources:**
 ```

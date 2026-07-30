@@ -145,7 +145,7 @@ Every RAPP Store must have a `manifest.json` at the repository root:
 
 ```bash
 # Option A: Fork this repository
-gh repo fork kody-w/RAPP_Store
+gh repo fork kody-w/rapp-store-archive
 
 # Option B: Create from scratch
 mkdir my-rapp-store && cd my-rapp-store
@@ -340,5 +340,4 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
 
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/kody-w/RAPP_Store/issues)
-- Discussions: [GitHub Discussions](https://github.com/kody-w/RAPP_Store/discussions)
+- Issues: [GitHub Issues](https://github.com/kody-w/rapp-store-archive/issues)

@@ -1,7 +1,7 @@
 """
 PDF Processor Agent - Comprehensive PDF manipulation toolkit
 
-Part of the RAPP Store - https://github.com/kody-w/RAPP_Store
+Part of the RAPP Store Archive - https://github.com/kody-w/rapp-store-archive
 """
 
 from agents.basic_agent import BasicAgent
