@@ -5,7 +5,7 @@ Enables browsing, searching, and installing agents and skills from RAPP Store
 repositories. Supports both RAPP Agents and Claude Skills with cross-format
 conversion capabilities.
 
-Part of the RAPP Store - https://github.com/kody-w/RAPP_Store
+Part of the RAPP Store Archive - https://github.com/kody-w/rapp-store-archive
 """
 
 from agents.basic_agent import BasicAgent
@@ -450,7 +450,7 @@ Found {len(matches)} matching items:
 
 {item['description']}
 
-Generated from RAPP Store - https://github.com/kody-w/RAPP_Store
+Generated from RAPP Store Archive - https://github.com/kody-w/rapp-store-archive
 Original Type: {item['item_type']}
 """
 
@@ -556,7 +556,7 @@ This skill provides guidance for {item['name'].lower()} tasks.
 - **Author:** {item.get('author', 'Unknown')}
 - **License:** {item.get('license', 'Apache-2.0')}
 
-Generated from RAPP Store - https://github.com/kody-w/RAPP_Store
+Generated from RAPP Store Archive - https://github.com/kody-w/rapp-store-archive
 """
 
     def _add_store(self, params: dict) -> str:

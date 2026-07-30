@@ -5,16 +5,16 @@
     "name": "RAPP Store",
     "description": "Universal store for RAPP Agents and Claude Skills - cross-compatible AI agent marketplace",
     "owner": "kody-w",
-    "url": "https://github.com/kody-w/RAPP_Store",
+    "url": "https://github.com/kody-w/rapp-store-archive",
     "license": "Apache-2.0",
     "created": "2026-01-30",
-    "updated": "2026-01-30"
+    "updated": "2026-07-30"
   },
   "protocol": {
     "version": "1.0",
     "supports": ["rapp-agent", "claude-skill"],
     "discovery_endpoint": "manifest.json",
-    "raw_base": "https://raw.githubusercontent.com/kody-w/RAPP_Store/main",
+    "raw_base": "https://raw.githubusercontent.com/kody-w/rapp-store-archive/main",
     "installer": {
       "name": "RAPP Installer",
       "url": "https://github.com/kody-w/rapp-installer",
@@ -182,8 +182,8 @@
         "Evaluation tools"
       ],
       "resources": {
-        "scripts": ["evaluation.py", "connections.py"],
-        "references": ["mcp_best_practices.md", "python_mcp_server.md"]
+        "scripts": ["evaluation.py"],
+        "references": ["mcp_best_practices.md"]
       }
     },
     {
@@ -205,13 +205,33 @@
         "Version tracking"
       ],
       "resources": {}
+    },
+    {
+      "id": "hermes-tweet",
+      "type": "claude-skill",
+      "name": "Hermes Tweet",
+      "description": "Use the native Hermes Agent plugin for X/Twitter monitoring, account research, trend checks, and approval-gated social actions. Not affiliated with X Corp.",
+      "version": "0.1.11",
+      "category": "communication",
+      "author": "Xquik",
+      "license": "MIT",
+      "path": "skills/hermes-tweet",
+      "icon": "💬",
+      "tags": ["hermes-agent", "x-twitter", "social-listening", "automation"],
+      "features": [
+        "Native Hermes Agent plugin setup",
+        "Read-first X/Twitter monitoring workflow",
+        "Approval-gated tweet_action and private endpoint guidance",
+        "Credential and runtime validation checks"
+      ],
+      "resources": {}
     }
   ],
   "featured": ["pdf_processor_agent", "algorithmic-art", "mcp-builder"],
   "stats": {
     "total_agents": 3,
-    "total_skills": 3,
+    "total_skills": 4,
     "total_downloads": 0,
-    "last_updated": "2026-01-30T00:00:00Z"
+    "last_updated": "2026-07-30T20:42:00Z"
   }
 }
