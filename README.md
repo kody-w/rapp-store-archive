@@ -1,5 +1,9 @@
 # RAPP Store
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/rapp-store-archive.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/rapp-store-archive.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 **Universal Store for RAPP Agents and Claude Skills**
 
 A cross-compatible marketplace for AI agents and skills that works with both the RAPP (Rapid AI Agent Production Pipeline) system and Anthropic Claude Skills format.
